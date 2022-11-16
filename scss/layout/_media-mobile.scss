@@ -1,0 +1,540 @@
+/*index*/
+@media (max-width:576px){
+    .config{
+        background-image: url(../img/fondo-celular1.jpg);
+        background-position: center;
+        background-attachment: cover;
+        display: grid;
+        grid-area: body;
+        grid-template-rows: 100px 520px 100px;
+        grid-template-areas: 
+        "body"
+        "main"
+        "footer"
+        ;
+    }
+
+    .contenedor{
+        display: flex;
+    }
+
+    .parrafo1{
+        width: 100%;
+        background-color: rgba(73, 73, 73, 0.747);
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+        padding-left: 90px;
+        border: 5px;
+        color: black;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .parrafo2{
+        width: 100%;
+        background-color: rgba(73, 73, 73, 0.747);
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 10px;
+        padding-left: 90px;
+        border: 5px;
+        color: black;
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .logo{
+        margin-left: 100px;
+        size: 50px;
+    }
+
+    .contenedor-mobile{
+        display: flex;
+        box-sizing: border-box;
+        width: 70px;
+        padding-right: 0%;
+    }
+
+    .container-fluid{
+        position: absolute;
+        right: 5px;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+/*novedades*/
+@media (max-width:576px){
+    .estructura{
+        display: block;
+        margin-left: 75px;
+    }
+
+    .info-autos{
+        width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .fotos-autos{
+        border: solid black;
+        border-radius: 5% 5% 5% 5%;
+        max-width: 350px;
+    }
+
+    .btn-close{
+        position: absolute;
+        right: 60px;
+    }
+}
+/*galeria*/
+@media (max-width:576px){
+    .config1{
+        display: grid;
+        grid-area: body;
+        grid-template-rows: 100px 500px 100px;
+        grid-template-areas: 
+        "body"
+        "main"
+        "footer"
+        ;
+    }
+    .marco{
+        width: 576px;
+    }
+    .modelo{
+        border: solid rgb(51, 51, 51);
+        width: 500px;
+        height: 300px;
+        display:block;
+        margin:auto;
+    }
+
+    .control{
+        display: none;
+    }
+
+    .foot-1{
+        width: 100%;
+    }
+}
+
+/*atencion al cliente*/
+@media (max-width:576px){
+    .config2{
+        display: grid;
+        grid-area: body;
+        grid-template-rows: 100px 540px 100px;
+        grid-template-areas: 
+        "body"
+        "main"
+        "footer"
+        ;
+    }
+    
+    .servicios{
+        list-style: none;
+        background-color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .marco-atencion{
+        margin-top: 0;
+    }
+
+    .atencion-cliente{
+        border: solid;
+        display: block;
+        width: 50vh;
+    
+    }
+    .atencion{
+        text-align: center;
+        padding-left: 20px;
+        gap: 10px;
+        font-family: sans-serif;;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    
+    .atencion-1{
+        background-color: gray;
+        font-size: 20px;
+        padding-left: 80px;
+        margin-top: 50px;
+        font-family: sans-serif;;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+    }
+    
+    .atencion-2{
+        background-color: gray;
+        padding-left: 80px;
+        font-family: sans-serif;;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+    //*formulario*//
+    @media (max-width:576px){
+        .config4{
+            background-image: url(../img/fondo-celular-novedades.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            display: grid;
+            grid-area: body;
+            grid-template-rows: 60px 720px 100px;
+            grid-template-areas: 
+            "body"
+            "main"
+            "footer"
+            ;
+        
+        }
+        
+        main fieldset div{
+            border: black;
+        }
+        
+        .cuadros{
+            padding-left: 50px;
+        }
+        .cuadro-de-informacion{
+            display: block;
+            border: solid rgb(0, 0, 0);
+            width: 500px;
+            margin: 0px;
+            padding-left: 0;
+            background-color: rgba(248, 247, 253, 0.705);
+        }
+        
+        .cuadro-de-informacion1{
+            margin: 20px;
+            padding: 20px;
+        }
+        
+        fieldset legend{
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .holder{
+            width: 150px;
+        }
+        
+        .text-area{
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+            width: 300px;
+        }
+        
+        .boton-envio{
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        
+        .datos{
+            gap: 10px;
+            font-size: x-large;
+            font-weight: bolder;
+        }
+        
+        .espacios{
+            margin-bottom: 20px;
+        }
+        
+        .letra{
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bolder;
+            text-align: center;
+        }
+    }
+
+/*index*/
+@media (max-width:400px){
+    .config{
+        background-image: url(../img/fondo-celular.jpg);
+        background-position: top left;
+        background-attachment: cover;
+        display: grid;
+        grid-area: body;
+        grid-template-rows: 100px 520px 100px;
+        grid-template-areas: 
+        "body"
+        "main"
+        "footer"
+        ;
+    }
+
+    .contenedor{
+        display: flex;
+    }
+
+    .parrafo1{
+        width: 400px;
+        background-color: rgba(73, 73, 73, 0.747);
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+        padding-left: 90px;
+        border: 5px;
+        color: black;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .parrafo2{
+        width: 400px;
+        background-color: rgba(73, 73, 73, 0.747);
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 10px;
+        padding-left: 90px;
+        border: 5px;
+        color: black;
+        font-size: 14px;
+        margin-top: 12px;
+    }
+
+    .logo{
+        margin-left: 100px;
+        size: 50px;
+    }
+
+    .contenedor-mobile{
+        display: flex;
+        box-sizing: border-box;
+        width: 70px;
+        padding-right: 0%;
+    }
+
+    .container-fluid{
+        position: absolute;
+        right: 5px;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+/*novedades*/
+@media (max-width:400px){
+    .estructura{
+        display: block;
+        margin-left: 0px;
+        width: 400px;
+    }
+
+    .info-autos .mobile{
+        width: 400px;
+        margin-bottom: 10px;
+    }
+
+    .fotos-autos{
+        border: solid black;
+        border-radius: 5% 5% 5% 5%;
+        max-width: 350px;
+    }
+
+    .btn-close{
+        position: absolute;
+        right: 60px;
+    }
+}
+/*galeria*/
+@media (max-width:400px){
+.config1{
+    display: grid;
+    grid-area: body;
+    grid-template-rows: 100px 500px 100px;
+    grid-template-areas: 
+    "body"
+    "main"
+    "footer"
+    ;
+}
+.marco{
+    width: 100%;
+}
+.modelo{
+    border: solid rgb(51, 51, 51);
+    width: 400px;
+    height: 300px;
+    display:block;
+    margin:auto;
+}
+
+.control{
+    display: none;
+}
+
+.foot-1{
+    padding-left: 0px;
+    width: 400px;
+}
+}
+
+/*atencion al cliente*/
+@media (max-width:400px){
+    .config2{
+        display: grid;
+        grid-area: body;
+        grid-template-rows: 100px 540px 100px;
+        grid-template-areas: 
+        "body"
+        "main"
+        "footer"
+        ;
+    }
+    
+    .servicio-cliente{
+        display: block;
+        margin: auto;
+        padding-left: 0;
+    }
+
+    .servicios{
+        color: blue($color: #000000);
+        list-style: none;
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .marco-atencion{
+        margin-top: 0;
+    }
+
+    .atencion-cliente{
+        border: solid;
+        display: block;
+        width: 400px;
+        margin-left: 0;
+    
+    }
+    .atencion{
+        text-align: center;
+        padding-left: 20px;
+        gap: 10px;
+        font-family: sans-serif;;
+        color: rgb(0, 0, 0);
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    
+    .atencion-1{
+        background-color: gray;
+        font-size: 20px;
+        margin-top: 50px;
+        font-family: sans-serif;;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        padding-left: 0;
+    }
+    
+    .atencion-2{
+        background-color: gray;
+        padding-left: 0;
+        font-family: sans-serif;;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        font-size: 20px;
+    }
+}
+
+
+
+//*formulario*//
+@media (max-width:400px){
+.config4{
+    background-image: url(../img/fondo-celular-novedades.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-area: body;
+    grid-template-rows: 60px 820px 100px;
+    grid-template-areas: 
+    "body"
+    "main"
+    "footer"
+    ;
+}
+
+main fieldset div{
+    border: rgb(0, 0, 0);
+}
+.cuadros{
+    padding-left: 0px;
+}
+
+.cuadro-de-informacion{
+    display: block;
+    border: solid rgb(0, 0, 0);
+    width: 400px;
+    margin: 0px;
+    padding-left: 0;
+    background-color: rgba(248, 247, 253, 0.705);
+}
+
+.cuadro-de-informacion1{
+    margin: 20px;
+    padding: 20px;
+}
+
+fieldset legend{
+    text-align: center;
+    font-weight: bold;
+}
+
+.holder{
+    width: 200px;
+}
+
+.text-area{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.boton-envio{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.datos{
+    gap: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.espacios{
+    margin-bottom: 20px;
+}
+
+.letra{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+}
+
+}

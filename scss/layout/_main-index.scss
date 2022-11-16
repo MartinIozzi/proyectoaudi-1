@@ -1,0 +1,30 @@
+section{
+    display: grid;
+    grid-area: main;
+
+.parrafo1{
+    font-family: sans-serif;;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-left: 25px;
+    border: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.parrafo2{
+    font-family: sans-serif;;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 50px;
+    padding-left: 25px;
+    border: 10px;
+    color: rgb(0, 0, 0);
+}
+.btn{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 250px;
+    border-color: black;
+}
+
+}

@@ -1,0 +1,15 @@
+.config4{
+        background-image: url(../img/fondo.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        display: grid;
+        grid-area: body;
+        grid-template-rows: 100px 730px 100px;
+        grid-template-areas: 
+        "body"
+        "main"
+        "footer"
+        ;
+    }
